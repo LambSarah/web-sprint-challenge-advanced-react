@@ -1,7 +1,7 @@
 import React from "react";
 import { useForm } from '../hooks/useForm'
 
-//set initial input values
+//set initial form values
 const initialValue = {
   firstName: "",
   lastName: "",
@@ -13,7 +13,7 @@ const initialValue = {
 };
 
 const CheckoutForm = (props) => {
-  // hook useForm to handle form control
+  // custom hook 'useForm' to handle form control
   const [state, handleChanges, handleSubmit] = useForm(initialValue);
 
   return (
