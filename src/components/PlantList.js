@@ -11,11 +11,7 @@ export default class PlantList extends Component {
     }
   }
 
-  // when the component mounts:
-  //   - fetch data from the server endpoint - http://localhost:3333/plants
-  //   - set the returned plants array to this.state.plants
-
-  /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
+  // after mounting component, make get call to API amd set response to state
   componentDidMount() {
     axios.get('http://localhost:3333/plants')
       .then(res => {
@@ -29,7 +25,7 @@ export default class PlantList extends Component {
     this.setState({ filterByText: e.target.value });
   }
 
-
+  // For the MVP tasks, I did not make any changes in the render function, but in order to implement the filter input stretch goal, I had to change the map function in render and all the plant state references to seachedPlant. I made sure it did not affect anything else, see below
   render() {
     return (
       <main className="plant-list">
