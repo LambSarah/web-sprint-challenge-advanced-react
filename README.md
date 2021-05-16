@@ -1,5 +1,7 @@
 # Sprint Challenge: Advanced React - React Plants 🌿
 
+
+
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
 This challenge allows you to practice the concepts and techniques learned over the past sprint and apply them in a concrete project. This sprint explored some advanced React topics ⚛️. During this sprint, you studied **class components**, **the component lifecycle** and **class component lifecycle methods,** **custom hooks**, and **React Testing Library 🐙.** 
@@ -142,3 +144,5 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 3. Define stateful logic.
 
 4. What are the three step of creating a successful test? What is done in each phase?
+
+    Arrange, Act, Assert
