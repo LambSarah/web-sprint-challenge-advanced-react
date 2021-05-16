@@ -44,6 +44,10 @@ h1 {
   justify-content: space-evenly;
 }
 
+.plant-filter{
+  width:70%;
+}
+
 .plant-card {
   display: flex;
   width: 50%;
